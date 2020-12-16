@@ -1,4 +1,4 @@
-# Django-OwlCarousel
+# Django Two Language Site 
 
 ```virtualenv .venv
 source .venv/bin/activate
