@@ -19,13 +19,14 @@
     <!-- Stylesheets -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="{% static 'SlideShow/css/docs.theme.min.css' %}">
+    {% if LANGUAGE_CODE == 'fa' %}
     <link rel="stylesheet" href="{% static 'SlideShow/css/rtl.css' %}">
+    {% endif %}
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="{% static 'SlideShow/owlcarousel/assets/owl.carousel.min.css' %}">
-    {% if LANGUAGE_CODE == 'fa' %}
     <link rel="stylesheet" href="{% static 'SlideShow/owlcarousel/assets/owl.theme.default.min.css' %}">
-    {% endif %}
+    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
