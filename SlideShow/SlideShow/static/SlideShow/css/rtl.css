@@ -1,0 +1,24 @@
+body {
+	direction: rtl;
+	text-align: right;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    direction: ltr;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag p {
+    direction: rtl;
+}
+
+.brand.left {
+    float: right !important;
+}
+
+.brand.right {
+    float: left !important;
+}
+
+.brand.right h3 {
+	font-size: 1rem
+}
